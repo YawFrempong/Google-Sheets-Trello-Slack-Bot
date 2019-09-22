@@ -1,5 +1,4 @@
 const SlackBot = require('slackbots');
-const axios = require('axios');
 const GoogleSpreadsheet = require('google-spreadsheet')
 const { promisify } = require('util')
 const creds = require('./client_secret.json')
