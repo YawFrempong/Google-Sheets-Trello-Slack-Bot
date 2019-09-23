@@ -219,7 +219,7 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ![](screenshots/60.png)
 
-Congrats you have the bot working. Continue to add code to the index.js file to add more functionality.
+### Congrats you have the bot working. Continue to add code to the index.js file to add more functionality.
 
 
 
