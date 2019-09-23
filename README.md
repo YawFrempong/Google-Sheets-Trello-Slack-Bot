@@ -191,13 +191,9 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ![](screenshots/51.PNG)
 
-### 26. Change the code in the acessSpreadsheet() and phase_2 functions in index.js to match your use:
+### 26. Change the code in the phase_2() function in index.js to match your use:
 
 ![](screenshots/sheets_example.png)
-
-![](screenshots/52.PNG)
-
-![](screenshots/53.PNG)
 
 ![](screenshots/54.PNG)
 
