@@ -59,7 +59,10 @@ https://nodejs.org/en/download/
 #### Download the ZIP file and extract(uncompress) the files
 ![](screenshots/15.PNG)
 
-#### Clone the GitHub using Terminal/Command Prompt with the command:  git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
+### OR!
+
+#### Clone the GitHub using Terminal/Command Prompt with the command:  
+git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ![](screenshots/16.PNG)
 
