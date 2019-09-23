@@ -4,6 +4,7 @@ A Slack bot that can fetch data from Google Sheets files and Trello Dashboards.
 
 ## Create A Slack Bot
 
+
 ### 1. Create a Slack App in the your desired Workspace:
 
 ![](screenshots/1.png)
@@ -68,20 +69,20 @@ https://nodejs.org/en/download/
 
 ![](screenshots/18.PNG)
 
-### 6. In terminal/command prompt, CD to the project folder(or open the terminal/command prompt in the project folder). Install the required dependencies:
+### 9. In terminal/command prompt, CD to the project folder(or open the terminal/command prompt in the project folder). Install the required dependencies:
     
     npm install slackbots
     npm install google-spreadsheet
     npm install trello
 
-### 7. You should have a package-lock.JSON file and node_modules folder now.
+### 10. You should have a package-lock.JSON file and node_modules folder now.
 
 ![](screenshots/19.PNG)
 
 #### (You package.JSON file should look like this now)
 ![](screenshots/20.PNG)
 
-### 8. Enter the Bot User OAuth Access Token and Bot Name into the SlackBot constructor:
+### 11. Enter the Bot User OAuth Access Token and Bot Name into the SlackBot constructor:
 
 ![](screenshots/21.PNG)
 
@@ -91,36 +92,39 @@ https://nodejs.org/en/download/
 
 ![](screenshots/24.PNG)
 
+
+
 ## Integrate Trello
 
-### 9. Create a Trello account and Login If you don't already have one. 
 
-### 10. Got to: https://trello.com/app-key
+### 12. Create a Trello account and Login If you don't already have one. 
+
+### 13. Got to: https://trello.com/app-key
 
 ![](screenshots/25.png)
 
 #### (Trello Developer API Key)
 ![](screenshots/26.png)
 
-### 11. Copy the link and replace {YourAPIKey} with your Trello Developer API Key
+### 14. Copy the link and replace {YourAPIKey} with your Trello Developer API Key
 
 ![](screenshots/27.png)
 
 ![](screenshots/28.png)
 
-### 12. Press Allow to generate an OAuth Token
+### 15. Press Allow to generate an OAuth Token
 
 ![](screenshots/29.png)
 
 ![](screenshots/30.png)
 
-### 13. Copy the API Key and OAuth Token into the Trello constructor:
+### 16. Copy the API Key and OAuth Token into the Trello constructor:
 
 ![](screenshots/31.PNG)
 
 ![](screenshots/32.PNG)
 
-### 14. Copy the URL Code from your Trello Board and put it in the getListsOnBoards() function:
+### 17. Copy the URL Code from your Trello Board and put it in the getListsOnBoards() function:
 
 ![](screenshots/34.PNG)
 
@@ -128,21 +132,25 @@ https://nodejs.org/en/download/
 
 ![](screenshots/35.PNG)
 
+
+
+
 ## Integrate Google Sheets
 
-### 12. Go to Google Developers Console: https://console.developers.google.com
 
-### 13. Click on the project tab on the top left:
+### 18. Go to Google Developers Console: https://console.developers.google.com
 
-![](screenshots/35_2.PNG)
+### 19. Click on the project tab on the top left:
 
-### 14. Create a new project
+![](screenshots/35_2.png)
+
+### 20. Create a new project
 
 ![](screenshots/36.png)
 
 ![](screenshots/37.png)
 
-### 15. Enable the Google Drive API:
+### 21. Enable the Google Drive API:
 
 ![](screenshots/38.png)
 
@@ -150,7 +158,7 @@ https://nodejs.org/en/download/
 
 ![](screenshots/40.png)
 
-### 16. Generate and download a Google Drive JSON file:
+### 22. Generate and download a Google Drive JSON file:
 
 ![](screenshots/41.png)
 
@@ -160,19 +168,19 @@ https://nodejs.org/en/download/
 
 ![](screenshots/44.png)
 
-### 17. Copy the JSON file into your project folder and rename the file to "client_secret":
+### 23. Copy the JSON file into your project folder and rename the file to "client_secret":
 
 ![](screenshots/45.PNG)
 
 ![](screenshots/46.PNG)
 
-### 18. Copy the client email address from the client_secret.JSON file and share your Google Spreadsheets with that email:
+### 24. Copy the client email address from the client_secret.JSON file and share your Google Spreadsheets with that email:
 
 ![](screenshots/47.PNG)
 
 ![](screenshots/48.PNG)
 
-### 19. Add your Google Sheets URL ID to the sheets array in index.js
+### 25. Add your Google Sheets URL ID to the sheets array in index.js
 
 ![](screenshots/49.PNG)
 
@@ -180,9 +188,9 @@ https://nodejs.org/en/download/
 
 ![](screenshots/51.PNG)
 
-### 20. Change the code in the acessSpreadsheet() and phase_2 functions in index.js to match your use:
+### 26. Change the code in the acessSpreadsheet() and phase_2 functions in index.js to match your use:
 
-![](screenshots/sheets_example.PNG)
+![](screenshots/sheets_example.png)
 
 ![](screenshots/52.PNG)
 
@@ -192,13 +200,13 @@ https://nodejs.org/en/download/
 
 ![](screenshots/55.PNG)
 
-### 21. In terminal/command prompt, CD to the project folder(or open the terminal/command prompt in the project folder)
+### 27. In terminal/command prompt, CD to the project folder(or open the terminal/command prompt in the project folder)
 
-### 22. Run the code to turn on the bot with this command: node index.js
+### 28. Run the code to turn on the bot with this command: node index.js
 
 ![](screenshots/56.PNG)
 
-### 23. Go to your Slack Workspace and test out the bot:
+### 29. Go to your Slack Workspace and test out the bot:
 
 ![](screenshots/57.png)
 
@@ -209,6 +217,8 @@ https://nodejs.org/en/download/
 ![](screenshots/60.png)
 
 Congrats you have the bot working. Continue to add code to the index.js file to add more functionality.
+
+
 
 ## Deploy the Bot to Run on the Cloud using Google Cloud and Kubernetes
 
