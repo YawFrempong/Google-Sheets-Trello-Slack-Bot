@@ -246,4 +246,5 @@ Building a Serverless Slack App with AWS and Serverless Framework: https://www.y
 ## Helpful Resources(API Documentation)
 
 Slack API: https://api.slack.com/
+
 Trello API: https://developers.trello.com/reference#introduction
