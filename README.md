@@ -7,36 +7,32 @@ A Slack bot that can fetch data from Google Sheets files and Trello Dashboards.
 
 ### 1. Create a Slack App in the your desired Workspace:
 
-![](screenshots/1.png)
-
-![](screenshots/2.png)
+<img src=screenshots/1.png width="49%" height="50%"> <img src=screenshots/2.png width="49%" height="50%">
 
 ### 2. Add a bot user to the Slack App:
 
-![](screenshots/3.png)
+<img src=screenshots/3.png width="50%" height="50%">
 
-![](screenshots/4.png)
+<img src=screenshots/4.png width="50%" height="50%">
 
 #### (Make is "Always Show My Bot as Online" is Off)
-![](screenshots/5.png)
+<img src=screenshots/5.png width="50%" height="50%">
 
 #### (Bots and Permissions show be enabled now)
-![](screenshots/6.png)
+<img src=screenshots/6.png width="50%" height="50%">
 
 ### 3. Install the Slack App in your Workspace:
 
-![](screenshots/7.png)
-
-![](screenshots/8.png)
+<img src=screenshots/7.png width="49%" height="50%"> <img src=screenshots/8.png width="49%" height="50%">
 
 #### (You should have a Bot User OAuth Access Token now. Copy this because you'll need it later) 
-![](screenshots/9.png)
+<img src=screenshots/9.png width="50%" height="50%">
 
 #### ("Add features and functionality" and "Install your app to your workspace" should now be enabled)
-![](screenshots/10.png)
+<img src=screenshots/10.png width="50%" height="50%">
 
 #### (When you go to your Slack Workspace you should see your bot in the Apps section)
-![](screenshots/11.png)
+<img src=screenshots/11.png width="150" height="500">
 
 ### 4. Download and Install Node.js
 
@@ -89,9 +85,7 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ![](screenshots/21.PNG)
 
-![](screenshots/22.png)
-
-![](screenshots/23.png)
+<img src=screenshots/22.png width="49%" height="50%"><img src=screenshots/23.png width="49%" height="50%">
 
 ![](screenshots/24.PNG)
 
@@ -104,10 +98,10 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ### 13. Got to: https://trello.com/app-key
 
-![](screenshots/25.png)
+<img src=screenshots/25.png width="50%" height="50%">
 
 #### (Trello Developer API Key)
-![](screenshots/26.png)
+<img src=screenshots/26.png width="50%" height="50%">
 
 ### 14. Copy the link and replace {YourAPIKey} with your Trello Developer API Key
 
@@ -117,9 +111,9 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ### 15. Press Allow to generate an OAuth Token
 
-![](screenshots/29.png)
+<img src=screenshots/29.png width="50%" height="50%">
 
-![](screenshots/30.png)
+<img src=screenshots/30.png width="50%" height="50%">
 
 ### 16. Copy the API Key and OAuth Token into the Trello constructor:
 
@@ -145,31 +139,27 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ### 19. Click on the project tab on the top left:
 
-![](screenshots/35_2.png)
+<img src=screenshots/35_2.png width="50%" height="50%">
 
 ### 20. Create a new project
 
-![](screenshots/36.png)
+<img src=screenshots/36.png width="50%" height="50%">
 
-![](screenshots/37.png)
+<img src=screenshots/37.png width="50%" height="50%">
 
 ### 21. Enable the Google Drive API:
 
-![](screenshots/38.png)
+<img src=screenshots/38.png width="50%" height="50%">
 
-![](screenshots/39.png)
+<img src=screenshots/39.png width="50%" height="50%">
 
-![](screenshots/40.png)
+<img src=screenshots/40.png width="50%" height="50%">
 
 ### 22. Generate and download a Google Drive JSON file:
 
-![](screenshots/41.png)
+<img src=screenshots/41.png width="49%" height="50%"> <img src=screenshots/42.png width="49%" height="50%">
 
-![](screenshots/42.png)
-
-![](screenshots/43.png)
-
-![](screenshots/44.png)
+<img src=screenshots/43.png width="49%" height="50%"> <img src=screenshots/44.png width="49%" height="50%">
 
 ### 23. Copy the JSON file into your project folder and rename the file to "client_secret":
 
@@ -181,7 +171,7 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ![](screenshots/47.PNG)
 
-![](screenshots/48.PNG)
+<img src=screenshots/48.PNG width="75%" height="75%">
 
 ### 25. Add your Google Sheets URL ID to the sheets array in index.js
 
@@ -207,13 +197,13 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 ### 29. Go to your Slack Workspace and test out the bot:
 
-![](screenshots/57.png)
+<img src=screenshots/57.png width="125" height="750">
 
 ![](screenshots/58.png)
 
-![](screenshots/59.png)
+<img src=screenshots/59.png width="75%" height="75%">
 
-![](screenshots/60.png)
+<img src=screenshots/60.png width="50%" height="50%">
 
 ### Congrats you have the bot working. Continue to add code to the index.js file to add more functionality.
 
