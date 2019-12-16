@@ -203,7 +203,7 @@ git clone https://github.com/YawFrempong/Google-Sheets-Trello-Slack-Bot
 
 <img src=screenshots/59.png width="75%" height="75%">
 
-<img src=screenshots/60.png width="50%" height="50%">
+<img src=screenshots/60.png width="30%" height="30%">
 
 ### Congrats you have the bot working. Continue to add code to the index.js file to add more functionality.
 
